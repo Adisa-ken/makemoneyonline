@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redirecting...</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NNRJL8V54D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-NNRJL8V54D');
+
+    // Extract UTM parameters from the current URL
+    const params = window.location.search;
+    // Your Carrd destination
+    const carrdUrl = "https://makemoneywrahimah.carrd.co" + params;
+
+    // Redirect after short delay (1.5 seconds)
+    setTimeout(() => {
+      window.location.href = carrdUrl;
+    }, 1500);
+  </script>
+</head>
+<body>
+  <p>Redirecting you to our site…</p>
+</body>
+</html>
